@@ -2,7 +2,7 @@
 
 ## 📖 Overview
 
-A two-player multiplayer VR card game inspired by **Liar's Bar**, centred on bluffing, deception, and strategic challenges.
+A two-player networked VR card game inspired by **Liar's Bar**, centred on bluffing, deception, and strategic challenges.
 
 Built in Unity, the experience combines turn-based card gameplay with immersive VR interaction, allowing two players to compete against each other in a shared virtual environment. Players must decide whether to trust their opponent or challenge their claims while progressing through each round.
 
@@ -17,11 +17,11 @@ Built in Unity, the experience combines turn-based card gameplay with immersive 
 - **Challenge System:** Opponents can challenge a player's claim when they suspect a bluff
 - **Competitive Gameplay:** Each decision can influence the outcome of the match
 
-### 🌐 Multiplayer VR Experience
+### 🌐 Two-player shared VR Experience
 
-- **Two-Player Multiplayer:** Designed for two players competing in the same VR game session
+- **Two-Player Network:** Designed for two players competing in the same VR game session
 - **Networked Gameplay:** Player actions and game events are synchronised between both players
-- **Shared Virtual Environment:** Both players interact within the same multiplayer game space
+- **Shared Virtual Environment:** Both players interact within the same shared networked game space
 
 ### 🥽 VR Interaction & Player Presence
 
@@ -50,11 +50,11 @@ Built in Unity, the experience combines turn-based card gameplay with immersive 
 - **Game Engine:** Unity 6.0 (`6000.0.59f2`)
 - **Programming Language:** C#
 - **VR Framework:** XR Interaction Toolkit
-- **Multiplayer Networking:** Photon Unity Networking (PUN)
+- **Two-player Networking:** Photon Unity Networking (PUN)
 - **Target Platform:** Meta Quest
 - **Interaction:** VR controller and hand-based interaction
 - **Gameplay Type:** Two-player networked VR card game
-- **Core Systems:** Turn management, card interaction, bluff/challenge mechanics, multiplayer synchronisation and match outcomes
+- **Core Systems:** Turn management, card interaction, bluff/challenge mechanics, two-player network synchronisation and match outcomes
 
 <br>
 
@@ -64,7 +64,7 @@ Built in Unity, the experience combines turn-based card gameplay with immersive 
 
 - **VR Headset:** Meta Quest headset
 - **Controllers:** Meta Quest Touch controllers
-- **Internet Connection:** Required for two-player multiplayer gameplay
+- **Internet Connection:** Required for two-player networked gameplay
 - **Development PC:** A system capable of running Unity and building applications for Meta Quest
 - **USB Connection:** Required when deploying the application directly from Unity to the headset
 
@@ -73,7 +73,7 @@ Built in Unity, the experience combines turn-based card gameplay with immersive 
 - **Unity Hub**
 - **Unity Editor:** Unity 6.0 (`6000.0.59f2`)
 - **Android Build Support** with SDK, NDK and OpenJDK
-- **Photon Unity Networking (PUN)** for multiplayer functionality
+- **Photon Unity Networking (PUN)** for two-player networking functionality
 
 <br>
 
@@ -101,11 +101,11 @@ cd LiarVR-VRGame
 - Allow **USB debugging** when prompted on the headset
 - Ensure the headset is recognised by Unity for Android deployment
 
-### 4. Configure Multiplayer
+### 4. Configure Two-player network
 
 - Ensure the project's **Photon Unity Networking (PUN)** configuration is available
-- A valid Photon configuration is required for networked multiplayer functionality
-- Both players require an internet connection to participate in the multiplayer session
+- A valid Photon configuration is required for networked two-player functionality
+- Both players require an internet connection to participate in the networked session
 
 ### 5. Build & Run
 
@@ -123,7 +123,7 @@ cd LiarVR-VRGame
 ### Getting Started
 
 1. **Launch the Game:** Start LIAR VR on both players' Meta Quest headsets.
-2. **Join the Multiplayer Session:** Connect both players to the same game session.
+2. **Join the Two-player Shared Session:** Connect both players to the same game session.
 3. **Enter the Game:** Each player is represented within the shared virtual environment.
 4. **Check the Instructions:** A How-to-Play board is positioned beside the player's seating area and remains accessible throughout the match.
 5. **Begin the Match:** Players take turns playing cards and attempting to deceive or challenge their opponent.
@@ -156,7 +156,7 @@ Players can refer to the board whenever needed to review the gameplay rules and 
 - Interact with cards and game elements using VR controls
 - Select and place cards during your turn
 - Use the interactive buttons positioned within the game environment
-- View and interact with the opponent through the shared multiplayer environment
+- View and interact with the opponent through the shared environment
 - Player movement is represented through virtual avatars
 
 ### 🏆 Match Outcome
@@ -166,20 +166,20 @@ At the end of the match, players are presented with different outcome sequences 
 - **Victory:** The winning player experiences a dedicated victory animation and visual effects
 - **Defeat:** The losing player experiences a separate defeat animation and visual sequence
 
-These sequences provide a clear visual conclusion to the multiplayer match.
+These sequences provide a clear visual conclusion to the two-player match.
 
 <br>
 
 ## 🎯 Core Systems & Interactions
 
-### 🌐 Multiplayer System
+### 🌐 Two-player System
 
 The game uses **Photon Unity Networking (PUN)** to support two-player networked gameplay within a shared VR environment.
 
-- Synchronises both players within the multiplayer session
+- Synchronises both players within the shared session
 - Communicates gameplay actions and events between players
 - Supports turn-based interaction between the two participants
-- Maintains the shared multiplayer game experience
+- Maintains the shared game experience
 
 ### 🃏 Card & Turn System
 
@@ -200,7 +200,7 @@ Players can use the dedicated **Challenge button** when they believe their oppon
 
 ### 🔊 Voice Communication System
 
-Two interactive buttons provide simple pre-recorded communication between players during the multiplayer match.
+Two interactive buttons provide simple pre-recorded communication between players during the match.
 
 - **“Hurry up, hurry up”** — encourages the opponent to make their move
 - **“Is it lag or just you?”** — allows a player to question a delay in the opponent's response
@@ -218,7 +218,7 @@ This allows players to review the game rules and interaction instructions whenev
 - VR-based interaction with cards and game elements
 - Interactive buttons positioned within the virtual environment
 - Virtual avatars represent both players within the shared game space
-- Player actions are reflected within the multiplayer experience
+- Player actions are reflected within the two-player shared experience
 
 ### 🏆 Victory & Defeat System
 
@@ -268,7 +268,7 @@ Potential future improvements include:
 
 ## 🎥 Demo Video
 
-A gameplay demonstration of **LIAR VR** VR game, showcasing multiplayer card gameplay, bluffing and challenge mechanics, VR interaction, in-game communication, and victory/defeat sequences.
+A gameplay demonstration of **LIAR VR** VR game, showcasing two-player networked card gameplay, bluffing and challenge mechanics, VR interaction, in-game communication, and victory/defeat sequences.
 
 ▶️ [View / Download the LIAR VR Demo Video](https://github.com/pranavv-jothinathan/LiarVR-VRGame/releases/tag/demoVideo-v1)
 
