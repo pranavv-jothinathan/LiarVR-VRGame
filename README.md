@@ -6,6 +6,7 @@ A two-player multiplayer VR card game inspired by **Liar's Bar**, centred on blu
 
 Built in Unity, the experience combines turn-based card gameplay with immersive VR interaction, allowing two players to compete against each other in a shared virtual environment. Players must decide whether to trust their opponent or challenge their claims while progressing through each round.
 
+<br>
 
 ## ✨ Key Features
 
@@ -42,7 +43,7 @@ Built in Unity, the experience combines turn-based card gameplay with immersive 
 - **Defeat Sequence:** Losing players experience a separate defeat animation and visual sequence
 - **Outcome Environment:** Match results are reinforced through environmental effects and dedicated end-game presentation
 
-
+<br>
 
 ## 🛠️ Technical Specifications
 
@@ -55,6 +56,7 @@ Built in Unity, the experience combines turn-based card gameplay with immersive 
 - **Gameplay Type:** Two-player networked VR card game
 - **Core Systems:** Turn management, card interaction, bluff/challenge mechanics, multiplayer synchronisation and match outcomes
 
+<br>
 
 ## 📋 Requirements
 
@@ -73,7 +75,7 @@ Built in Unity, the experience combines turn-based card gameplay with immersive 
 - **Android Build Support** with SDK, NDK and OpenJDK
 - **Photon Unity Networking (PUN)** for multiplayer functionality
 
----
+<br>
 
 ## 🚀 Installation & Setup
 
@@ -114,7 +116,7 @@ cd LiarVR-VRGame
 - Select the connected Meta Quest headset
 - Build and run the application
 
----
+<br>
 
 ## 🎮 How to Play
 
@@ -166,6 +168,7 @@ At the end of the match, players are presented with different outcome sequences 
 
 These sequences provide a clear visual conclusion to the multiplayer match.
 
+<br>
 
 ## 🎯 Core Systems & Interactions
 
@@ -225,6 +228,7 @@ The game provides dedicated outcome experiences after the result of a match is d
 - **Defeat Sequence:** Presents the losing player with a separate defeat animation and visual sequence
 - **Environmental Feedback:** Visual effects reinforce the outcome and provide a clear conclusion to the match
 
+<br>
 
 ## 📝 Credits
 
@@ -247,6 +251,7 @@ The project was developed using technologies and packages including:
 
 Additional third-party 3D models, textures, audio, animations, and other assets used within the project remain subject to their respective licences and terms of use.
 
+<br>
 
 ## 🔮 Future Enhancements
 
@@ -259,6 +264,11 @@ Potential future improvements include:
 - Introduce additional game environments or table themes
 - Further improve multiplayer synchronisation and network handling
 
+<br>
+
 ## 🎥 Demo Video
 
+A gameplay demonstration of **LIAR VR** VR game, showcasing multiplayer card gameplay, bluffing and challenge mechanics, VR interaction, in-game communication, and victory/defeat sequences.
+
+▶️ [View / Download the LIAR VR Demo Video](https://github.com/pranavv-jothinathan/LiarVR-VRGame/releases/tag/demoVideo-v1)
 
